@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Top albuns</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h3>Digite o nome de um artista no campo abaixo para receber o retorno dos 3 albuns mais ouvidos atraves da API do lastFm</h2>
+    <br>
     <div class="container">
         <h2 class="aga2">Buscar artista</h2>
         <input id="artista" type="text" placeholder="Nome do artista">
         <br>
-        <button id="buscarButton">teste</button>
+        <button id="buscarButton">pesquisar</button>
         <br>
+        <h4 id="nomeUm"></h4>
         <div id="resultados"></div>
+        <h4 id="nomeDois"></h4>
+        <div id="resultadosDois"></div>
+        <h4 id="nomeTres"></h4>
+        <div id="resultadosTres"></div>
     </div>
 </body>
 <script src="script.js"></script>
