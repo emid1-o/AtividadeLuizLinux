@@ -39,7 +39,7 @@ async function buscarAlbuns() {
     nomeTres.innerHTML = ` 3 - ${terceiroAlbum}`;
     resultadosDivTres.innerHTML = `<img src="${imagemAlbumTres}">`;
 
-    console.log(`Os album mais ouvido são: ${primeiroAlbum, segundoAlbum, terceiroAlbum}`);
+    console.log(`Os albuns mais ouvido são: ${primeiroAlbum, segundoAlbum, terceiroAlbum}`);
 
   } catch (error) {
 
